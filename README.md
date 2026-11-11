@@ -73,76 +73,64 @@ const devender = {
 
 ## Technical Skills
 
-### Programming Languages
+### 1. Languages & Core Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,sql,cpp,c,js,html,css&theme=dark" alt="Programming languages" />
+  <img src="https://skillicons.dev/icons?i=python,sql,cpp,git,github,vscode&theme=dark" alt="Programming Languages and Core Tools" />
 </p>
 
-### AI, Machine Learning & Frameworks
+### 2. Machine Learning & Deep Learning
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" alt="AI and Machine Learning" />
+  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" alt="Machine Learning and Deep Learning" />
 </p>
-
-### Backend & Databases
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,mysql,mongodb&theme=dark" alt="Backend and database technologies" />
-</p>
-
-### Tools & Platforms
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker&theme=dark" alt="Development tools and platforms" />
-</p>
-
-### Data Analytics, BI & AI Libraries
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/LangChain-Generative%20AI-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/LangGraph-Agentic%20Workflows-000000?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/Streamlit-App%20Development-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Excel-Spreadsheet%20Analysis-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-Model%20Training-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+</p>
+
+### 3. Generative AI & LLM Systems
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-Orchestration-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LangGraph-Agentic%20Workflows-000000?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/OpenAI-API%20%26%20Embeddings-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/ChromaDB-Vector%20Store-FF6F00?style=flat-square" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/Groq-Fast%20Inference-F05A28?style=flat-square" alt="Groq" />
+</p>
+
+### 4. Data Analytics, BI & Deployment
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,fastapi,docker&theme=dark" alt="Databases and Deployment" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/DAX-Measures%20%26%20KPIs-0078D4?style=flat-square" alt="DAX" />
+  <img src="https://img.shields.io/badge/Power%20Query-ETL%20Modeling-107C41?style=flat-square" alt="Power Query" />
+  <img src="https://img.shields.io/badge/Streamlit-AI%20Deployment-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
 </p>
 
 ---
 
 ## Featured Projects
 
-### Evidence-Driven Knowledge Intelligence Agent — Hybrid RAG + CRAG
+### Brazilian E-Commerce Analytics — Power BI & SQL
 
-An intelligent document question-answering system designed to retrieve relevant information across multiple document formats and improve answer reliability through retrieval evaluation and corrective retrieval.
+An interactive business intelligence and relational data analysis project using the Brazilian E-Commerce (Olist) dataset to explore customer purchasing behaviors, order fulfillment, payment distributions, and seller performance.
 
-* Developed a **hybrid retrieval pipeline** combining dense vector search and BM25 keyword search
-* Implemented **reranking using a cross-encoder** to significantly improve relevance of retrieved contexts
-* Built **corrective retrieval and query-rewriting workflows** using LangGraph
-* Integrated dynamic web search fallback for queries requiring external, up-to-date context
-* Supported multi-format document ingestion for **PDF, DOCX, TXT, CSV, and HTML**
-* Deployed an interactive querying and chat interface using Streamlit
+* Cleaned, transformed, and modeled multi-table relational datasets using **Power Query**
+* Designed star-schema data models and established relational integrity across customer, order, and product tables
+* Authored complex **SQL queries, joins, and aggregations** for deep-dive customer and sales trend analysis
+* Engineered dynamic **DAX measures** for tracking revenue growth, freight values, and delivery performance metrics
+* Developed interactive **Power BI reports and dashboards** for business and operational decision-making
 
-**Stack:** `Python` `LangChain` `LangGraph` `MongoDB Atlas` `Cross-Encoder` `Groq` `Tavily` `Streamlit`
+**Stack:** `Power BI` `DAX` `Power Query` `SQL` `Data Modeling` `Data Visualization`
 
-[Source Code](https://github.com/Devender-Mathela/RAG_Pipeline) · [Live Demo](https://ragpipeline-j5d7lje8fteaxynqqhdwef.streamlit.app/)
-
----
-
-### Diamond Price Prediction — Production ML Pipeline
-
-A machine learning application that predicts diamond prices based on physical and gemological characteristics with an optimized model deployment workflow.
-
-* Prepared and engineered features across multi-dimensional gemstone datasets
-* Trained and evaluated regression models with rigorous cross-validation
-* Optimized serialized model artifacts, reducing storage footprint from **>1 GB down to ~82.7 MB**
-* Developed a responsive web service using **Flask** for real-time inference
-* Deployed application live on Render
-
-**Stack:** `Python` `Scikit-learn` `Pandas` `NumPy` `Flask` `Render` `Machine Learning`
-
-[Source Code](https://github.com/Devender-Mathela/Diamond-Price-Prediction) · [Live Demo](https://diamond-price-prediction-hrnt.onrender.com/)
+[Source Code & Project Files](https://github.com/Devender-Mathela/Power_BI_Brazilian_Ecommerce_Dataset_by_Olist)
 
 ---
 
@@ -162,6 +150,23 @@ An interactive business intelligence and exploratory data analytics project unco
 
 ---
 
+### Evidence-Driven Knowledge Intelligence Agent — Hybrid RAG + CRAG
+
+An intelligent document question-answering system designed to retrieve relevant information across multiple document formats and improve answer reliability through retrieval evaluation and corrective retrieval.
+
+* Developed a **hybrid retrieval pipeline** combining dense vector search and BM25 keyword search
+* Implemented **reranking using a cross-encoder** to significantly improve relevance of retrieved contexts
+* Built **corrective retrieval and query-rewriting workflows** using LangGraph
+* Integrated dynamic web search fallback for queries requiring external, up-to-date context
+* Supported multi-format document ingestion for **PDF, DOCX, TXT, CSV, and HTML**
+* Deployed an interactive querying and chat interface using Streamlit
+
+**Stack:** `Python` `LangChain` `LangGraph` `MongoDB Atlas` `Cross-Encoder` `Groq` `Tavily` `Streamlit`
+
+[Source Code](https://github.com/Devender-Mathela/RAG_Pipeline) · [Live Demo](https://ragpipeline-j5d7lje8fteaxynqqhdwef.streamlit.app/)
+
+---
+
 ### Movie Recommendation System — Content-Based Filtering
 
 A machine learning recommendation engine suggesting films based on metadata similarity and user preferences.
@@ -174,19 +179,6 @@ A machine learning recommendation engine suggesting films based on metadata simi
 **Stack:** `Python` `Scikit-learn` `Pandas` `Streamlit` `TMDB API`
 
 [Source Code](https://github.com/Devender-Mathela/Movie-Recommended-System)
-
----
-
-### Brazilian E-Commerce Data Analysis — Relational SQL
-
-A comprehensive relational database analysis project using the Brazilian E-Commerce (Olist) dataset to explore customer, order, payment, and product trends.
-
-* Explored and structured a multi-table relational schema using primary/foreign key relationships
-* Authored complex **SQL queries, joins, aggregations, and window functions** for trend analysis
-* Investigated core business metrics regarding order fulfillment, revenue, and customer retention
-* Formulated data-driven recommendations based on analytical query outputs
-
-**Stack:** `SQL` `PostgreSQL` `Relational Database Design` `Data Analysis`
 
 ---
 
