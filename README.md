@@ -194,12 +194,12 @@ I use GitHub to build, experiment, and document projects focused on:
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Devender-Mathela&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight"
+    src="https://github-readme-stats-fast.vercel.app/api?username=Devender-Mathela&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight"
     height="165"
     alt="GitHub statistics"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devender-Mathela&layout=compact&hide_border=true&theme=tokyonight"
+    src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Devender-Mathela&layout=compact&hide_border=true&theme=tokyonight"
     height="165"
     alt="Top languages"
   />
