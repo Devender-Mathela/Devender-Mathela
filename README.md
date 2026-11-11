@@ -199,7 +199,7 @@ I use GitHub to build, experiment, and document projects focused on:
     alt="GitHub statistics"
   />
   <img
-    src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Devender-Mathela&layout=compact&hide_border=true&theme=tokyonight"
+    src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Devender-Mathela&layout=compact&hide_border=true&theme=tokyonight&exclude_repo=RAG-System-Design&hide=jupyter%20notebook,procfile"
     height="165"
     alt="Top languages"
   />
